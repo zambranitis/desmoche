@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+  <meta name="theme-color" content="#072e30">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Desmoche Nica: el juego de naipes nicaragüense en tu teléfono. Una partida clásica, donde estés.">
+  <meta property="og:type" content="website"><meta property="og:title" content="Desmoche Nica — El clásico de nuestra tierra"><meta property="og:description" content="Jugá Desmoche, el tradicional juego de naipes de Nicaragua, desde tu teléfono.">
+  <meta property="og:image" content="assets/preview.png">
+  <link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <title>Desmoche Nica — El clásico de nuestra tierra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="shell">
+  <section class="screen home-screen" id="home">
+   <div class="top-line"><span class="eyebrow">UN CLÁSICO DE NICARAGUA</span><button class="icon-button" data-action="rules" aria-label="Ver las reglas">?</button></div>
+   <div class="home-center">
+     <div class="crest"><span>♠</span><span class="crest-word">DN</span><span>♦</span></div>
+     <h1><span>DESMOCHE</span><strong>NICA</strong></h1>
+     <p class="hero-sub">La tradición está en tus manos.</p>
+     <div class="hero-cards" aria-hidden="true"><div class="back-card left-back"></div><div class="face-hero center-card">A<span>♠</span></div><div class="back-card right-back"></div></div>
+     <div class="rule-ornament"><span></span>✦<span></span></div>
+     <p class="intro">Una mesa, nueve cartas y una jugada que puede cambiarlo todo.</p>
+   </div>
+   <div class="home-actions">
+     <div class="players-choice"><div><small>RIVALES</small><span>Contra la computadora</span></div><div class="choice-buttons"><button class="choice on" data-players="2">1</button><button class="choice" data-players="3">2</button><button class="choice" data-players="4">3</button></div></div>
+     <button class="primary-button" data-action="start">JUGAR AHORA <span>→</span></button>
+     <button class="text-button" data-action="settings">REGLAS Y PREFERENCIAS <span>⚙</span></button>
+   </div>
+   <footer class="author">REALIZADO POR RICARDO ZAMBRANA <span>·</span> VERSIÓN 1.2</footer>
+  </section>
+
+  <section class="screen game-screen hidden" id="game">
+   <header class="game-header">
+     <button class="icon-button" data-action="exit" aria-label="Menú">‹</button>
+     <div class="small-logo"><span>DESMOCHE</span><b>NICA</b></div>
+     <div class="header-right"><button id="pauseAi" class="icon-button mini pause-icon" data-action="pauseai" aria-label="Pausar computadora">Ⅱ</button><span id="roundText">RONDA 01</span><button class="icon-button mini" data-action="rules" aria-label="Reglas">?</button></div>
+   </header>
+   <div class="status-box"><div class="status-kicker" id="statusKicker">PREPARANDO LA MESA</div><div class="status-title" id="statusTitle">Barajando las cartas…</div><div class="status-help" id="statusHelp">Un momento.</div></div>
+   <div class="opponents" id="opponents"></div>
+   <div class="opponent-melds" id="opponentMelds"></div>
+   <main class="table-zone">
+     <div class="table-etch" aria-hidden="true"><div>DN</div><span>LA MESA NICARAGÜENSE</span></div>
+     <div class="table-piles">
+       <div class="pile-wrapper"><div id="deckPile" class="deck-pile" data-action="draw" aria-label="Tomar del mazo"></div><span id="deckText">MAZO · 52</span></div>
+       <div class="pile-wrapper"><div id="drawnPile" class="drawn-pile"></div><span>CARTA EN JUEGO</span></div>
+       <div class="pile-wrapper"><div id="discardPile" class="discard-pile"></div><span>DESCARTE</span></div>
+     </div>
+   </main>
+   <section class="player-meld-area" id="playerMeldArea"><div class="meld-title"><span>TUS JUGADAS</span><small id="progressText">0 / 10 CARTAS</small></div><div id="myMelds" class="my-melds"></div></section>
+   <div class="action-area" id="actionArea"></div>
+   <section class="hand-area"><div class="hand-title"><span>TU MANO <i class="hand-tip">⇆ ORDENAR</i></span><small id="handCount">9 cartas</small></div><div class="hand-cards" id="myHand"></div></section>
+   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </section>
+
+  <div class="modal-shade hidden" id="modalShade"><div class="modal" id="modalContent"></div></div>
+ </div>
+ <script src="logic.js" defer></script>
+ <script src="game.js" defer></script>
+</body>
+</html>

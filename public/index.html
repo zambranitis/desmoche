@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover, user-scalable=no"><meta name="theme-color" content="#073631">
+ <meta name="description" content="Desmoche Nica: reuní a tus amigos y jugá en vivo desde cualquier teléfono. Sin descargar aplicaciones.">
+ <meta property="og:title" content="Desmoche Nica · Juguemos una mano"><meta property="og:description" content="Te invito a jugar Desmoche Nica. Abrí este enlace y entrá a nuestra mesa."><meta property="og:image" content="/preview.png"><meta property="og:type" content="website">
+ <title>Desmoche Nica | Multijugador</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="manifest" href="/manifest.webmanifest">
+ <link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/online.css">
+</head>
+<body>
+<div id="shell">
+ <section id="home" class="screen home-screen online-home">
+  <div class="top-line"><span class="eyebrow">EL CLÁSICO NICARAGÜENSE · EN VIVO</span><button class="icon-button" data-action="rules" aria-label="Reglas">?</button></div>
+  <div class="home-center"><div class="crest"><span>♠</span><span class="crest-word">DN</span><span>♦</span></div><h1><span>DESMOCHE</span><strong>NICA</strong></h1><p class="hero-sub">La tradición está en tus manos.</p>
+   <div class="hero-cards" aria-hidden="true"><div class="back-card left-back"></div><div class="face-hero center-card">A<span>♠</span></div><div class="back-card right-back"></div></div>
+   <div class="rule-ornament"><span></span>✦<span></span></div><p class="intro">Una sala privada, tus amigos y una buena mano. Jugá desde cualquier celular.</p>
+  </div>
+  <div class="online-entry"><label for="playerName">TU NOMBRE</label><input id="playerName" maxlength="24" autocapitalize="words" placeholder="¿Cómo querés aparecer?" autocomplete="nickname">
+   <div id="joinArea" class="join-area hidden"><label for="roomInput">CÓDIGO DE LA SALA</label><input id="roomInput" maxlength="6" placeholder="ABC234" inputmode="text" autocapitalize="characters"><button data-action="join" class="primary-button">ENTRAR A LA SALA <span>→</span></button></div>
+   <div id="createArea"><button data-action="create" class="primary-button">CREAR UNA MESA <span>→</span></button><button data-action="join-mode" class="text-button">¿TENÉS UN CÓDIGO? ENTRÁ AQUÍ</button></div>
+   <a class="solo-link" href="/solitario/">Practicar contra la computadora ↗</a>
+  </div>
+  <footer class="author">REALIZADO POR RICARDO ZAMBRANA <span>·</span> ONLINE 2.0</footer>
+ </section>
+ <section id="lobby" class="screen waiting-screen hidden">
+  <div class="top-line"><button class="icon-button" data-action="leave" aria-label="Salir">‹</button><span class="eyebrow">SALA PRIVADA · DESMOCHE NICA</span><button class="icon-button" data-action="rules">?</button></div>
+  <div class="lobby-center"><div class="mini-crest">♠ <b>DN</b> ♦</div><p class="status-kicker">TU CÓDIGO DE SALA</p><div id="roomCode" class="room-code">ABC234</div><p class="lobby-help">Compartí el enlace para invitar a tus amigos. Ellos sólo escriben su nombre y entran.</p>
+  <button class="primary-button share-button" data-action="share"><span class="share-text">COMPARTIR INVITACIÓN</span><span>↗</span></button>
+  <button class="text-button" data-action="copy">COPIAR ENLACE</button>
+  <h2 class="lobby-heading">PERSONAS EN LA MESA <span id="lobbyCount">1 / 4</span></h2><div id="lobbyPlayers" class="lobby-players"></div>
+  <div class="lobby-bottom"><p id="lobbyHint" class="lobby-help">Esperando al menos a otra persona…</p><button id="startButton" class="primary-button" data-action="start" disabled>COMENZAR PARTIDA <span>→</span></button></div>
+  </div><footer class="author">REALIZADO POR RICARDO ZAMBRANA</footer>
+ </section>
+ <section id="game" class="screen game-screen hidden">
+  <header class="game-header"><button class="icon-button" data-action="leave" aria-label="Salir">‹</button><div class="small-logo"><span>DESMOCHE</span><b>NICA</b></div><div class="header-right"><span id="roomTag" class="room-tag">SALA</span><span id="roundText">RONDA 01</span><button class="icon-button mini" data-action="rules" aria-label="Reglas">?</button></div></header>
+  <div class="status-box"><div id="statusKicker" class="status-kicker">PREPARANDO LA MESA</div><div id="statusTitle" class="status-title">Esperando a los jugadores…</div><div id="statusHelp" class="status-help">Se sincronizará automáticamente.</div></div>
+  <div id="opponents" class="opponents"></div>
+  <div id="opponentMelds" class="opponent-melds"></div>
+  <main class="table-zone"><div class="table-etch" aria-hidden="true"><div>DN</div><span>LA MESA NICARAGÜENSE</span></div><div class="table-piles">
+   <div class="pile-wrapper"><div id="deckPile" class="deck-pile" data-action="draw" aria-label="Tomar carta del mazo"></div><span id="deckText">MAZO</span></div>
+   <div class="pile-wrapper"><div id="drawnPile" class="drawn-pile" aria-label="Carta en juego"></div><span>CARTA EN JUEGO</span></div>
+   <div class="pile-wrapper"><div id="discardPile" class="discard-pile" aria-label="Descarte"></div><span>DESCARTE</span></div>
+  </div></main>
+  <section class="player-meld-area" id="playerMeldArea"><div class="meld-title"><span>TUS JUGADAS</span><small id="progressText">0 / 10 CARTAS</small></div><div id="myMelds" class="my-melds"></div></section>
+  <div class="action-area" id="actionArea"></div>
+  <section class="hand-area"><div class="hand-title"><span>TU MANO <i class="hand-tip">⇆ ORDENAR</i></span><small id="handCount">9 cartas</small></div><div class="hand-cards" id="myHand"></div></section>
+  <div class="live-footer"><span id="connectionStatus">● CONECTADO</span><span>REALIZADO POR RICARDO ZAMBRANA</span></div>
+ </section>
+ <div class="modal-shade hidden" id="modalShade"><div class="modal" id="modalContent"></div></div>
+ <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</div>
+<script src="/logic.js" defer></script><script src="/card-art.js" defer></script><script src="/online.js" defer></script>
+</body></html>

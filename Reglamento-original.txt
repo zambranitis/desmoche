@@ -1,0 +1,333 @@
+# DESMOCHE
+## Reglamento y guía para aprender a jugar
+
+### 1. ¿Qué es el Desmoche?
+
+El Desmoche es un juego tradicional de naipes muy popular en Nicaragua. Se juega con una baraja convencional de 52 cartas, entre 2 y 4 jugadores.
+
+El objetivo es formar combinaciones de cartas, conocidas como *juegos*, y colocarlas sobre la mesa.
+
+**Gana el primer jugador que consiga tener exactamente 10 cartas sobre la mesa, distribuidas en combinaciones válidas.**
+
+Para conseguirlo, tendrás que aprovechar las cartas que aparecen durante la partida, completar tus combinaciones y prestar atención a las cartas que necesitan tus rivales.
+
+### 2. ¿Cuáles son las combinaciones válidas?
+
+Existen dos tipos de combinaciones: las escaleras y los grupos de cartas del mismo valor.
+
+**Escaleras**
+
+Son tres o más cartas consecutivas del mismo palo.
+
+Por ejemplo:
+
+- 4♥ 5♥ 6♥
+- 8♠ 9♠ 10♠ J♠
+- A♦ 2♦ 3♦ 4♦
+
+Una escalera puede tener entre 3 y 10 cartas.
+
+El As puede utilizarse antes del 2, como en A-2-3, pero nunca después del Rey. Por ejemplo, Q-K-A no es una combinación válida.
+
+**Cartas del mismo valor**
+
+Son tres o cuatro cartas del mismo número o figura, pero de distintos palos.
+
+Por ejemplo:
+
+- 7♠ 7♥ 7♦
+- K♠ K♥ K♦ K♣
+
+No es posible formar una combinación con solamente dos cartas. Todas las combinaciones deben tener un mínimo de tres.
+
+### 3. ¿Cómo comienza una partida?
+
+Al comenzar una ronda, se elige un repartidor.
+
+El repartidor entrega **9 cartas a cada jugador**, una por una y boca abajo, siguiendo el sentido contrario a las agujas del reloj.
+
+Las cartas restantes se colocan boca abajo en el centro de la mesa. Estas formarán el mazo del que se sacarán las cartas durante la partida.
+
+El jugador situado a la derecha del repartidor será el primero en jugar.
+
+En cada nueva ronda, el turno de repartir pasa al jugador de la derecha.
+
+### 4. El Cambio: intercambiar una carta
+
+Antes de empezar a jugar, todos los participantes realizan el **Cambio**.
+
+Cada jugador selecciona una carta de su mano y se la entrega boca abajo al jugador que está a su derecha. Al mismo tiempo, recibe una carta del jugador situado a su izquierda.
+
+El Cambio puede ayudarte a conseguir una combinación, acercarte a una escalera o deshacerte de una carta que no necesitas.
+
+Después del intercambio, todos los jugadores continúan teniendo nueve cartas.
+
+**Importante:** Antes de sacar la primera carta del mazo, se debe comprobar si algún jugador tiene una combinación que le permita ganar automáticamente. Más adelante explicaremos cuáles son.
+
+### 5. ¿Cómo se juega cada turno?
+
+El jugador situado a la derecha del repartidor comienza sacando una carta del mazo.
+
+Al descubrirla, debe comprobar si puede utilizarla para formar una combinación válida con las cartas que tiene en la mano o con las que ya haya colocado sobre la mesa.
+
+**Si la carta le sirve:**
+
+Debe colocarla sobre la mesa junto con las cartas necesarias para formar o completar una combinación.
+
+Por ejemplo, si tiene 5♣ y 6♣ en la mano y aparece el 7♣, puede utilizar esas tres cartas para bajar una escalera.
+
+**Si la carta no le sirve:**
+
+Debe descartarla boca arriba, dejándola disponible para los demás jugadores.
+
+Cualquier rival que pueda utilizarla inmediatamente para formar o completar una combinación válida tendrá la oportunidad de recogerla.
+
+Si nadie la utiliza, la partida continúa.
+
+**Una regla fundamental:** Las cartas que se sacan del mazo o se recogen de los descartes nunca pueden guardarse directamente en la mano. Deben utilizarse inmediatamente sobre la mesa o descartarse.
+
+**Excepción del primer turno:** Si nadie puede utilizar la primera carta descubierta de la partida, el jugador inicial descubre una segunda carta. A partir de ese momento, se descubre una sola carta por turno.
+
+### 6. ¿Quién tiene derecho a recoger una carta?
+
+Cuando aparece una carta descartada, varios jugadores podrían necesitarla.
+
+Si más de uno puede utilizarla, tendrá prioridad el jugador que esté primero en el orden de juego, comenzando por el situado a la derecha de quien la descartó.
+
+Por ejemplo, si juegan cuatro personas y el jugador 1 descarta una carta que necesitan tanto el jugador 2 como el jugador 4, tendrá prioridad quien aparezca primero en la rotación hacia la derecha desde el jugador 1.
+
+No importa quién grite primero o quién presione más rápido. La prioridad la determina el orden de los jugadores.
+
+Cuando alguien recoge una carta, debe utilizarla inmediatamente para formar o completar una combinación válida.
+
+### 7. La regla de las nueve cartas
+
+Esta es una de las reglas más importantes del Desmoche.
+
+**Durante toda la partida, cada jugador debe conservar exactamente nueve cartas entre las que tiene en la mano y las que ha bajado sobre la mesa.**
+
+Por lo tanto, cada vez que recoges una carta para utilizarla, tienes que pagarla descartando una de las cartas que todavía tienes en la mano.
+
+Veamos un ejemplo:
+
+Tienes nueve cartas: seis en la mano y tres formando una combinación sobre la mesa.
+
+Aparece una carta que puedes agregar a tu combinación.
+
+La recoges y ahora tienes diez cartas en total. Para continuar jugando, debes descartar una carta de tu mano.
+
+Así vuelves a tener nueve cartas.
+
+La única excepción ocurre cuando completas las diez cartas necesarias para ganar. En ese momento, la partida termina y no necesitas descartar ninguna.
+
+### 8. ¿Cómo se amplían las combinaciones?
+
+Una vez que hayas bajado una combinación a la mesa, puedes seguir agregándole cartas compatibles durante la partida.
+
+Por ejemplo, si tienes:
+
+5♥ 6♥ 7♥
+
+Puedes agregar el 4♥ o el 8♥ cuando aparezcan.
+
+También puedes completar un grupo de tres cartas iguales con la cuarta carta del mismo valor.
+
+Por ejemplo:
+
+J♠ J♥ J♦
+
+Puede completarse con J♣.
+
+Las combinaciones que ya colocaste sobre la mesa siguen siendo tuyas y cuentan para alcanzar las diez cartas necesarias para ganar.
+
+### 9. ¿Qué significa hacer un Desmoche?
+
+El Desmoche es una jugada especial que permite reorganizar las combinaciones que ya has bajado.
+
+Consiste en retirar una carta de una de tus combinaciones para utilizarla en otra, siempre que todas las combinaciones resultantes sigan siendo válidas.
+
+Por ejemplo, tienes sobre la mesa:
+
+8♠ 8♥ 8♣ 8♦
+
+Puedes retirar el 8♦ y utilizarlo para formar una nueva escalera:
+
+8♦ 9♦ 10♦
+
+Esto es válido porque el grupo original todavía conserva tres ochos y continúa siendo una combinación permitida.
+
+**Nunca puedes realizar un Desmoche que deje una combinación incompleta o inválida.**
+
+### 10. ¿Cómo se gana una partida?
+
+Para ganar, debes conseguir que tus diez cartas formen combinaciones válidas y estén colocadas boca arriba sobre la mesa.
+
+Puedes lograrlo mediante una escalera larga, varios grupos de cartas iguales, varias escaleras o una combinación de ambos tipos.
+
+Por ejemplo:
+
+- 3♣ 4♣ 5♣
+- 8♥ 8♦ 8♠
+- 10♠ J♠ Q♠ K♠
+
+En este caso tienes diez cartas distribuidas en tres combinaciones válidas.
+
+**¡Has ganado el Desmoche!**
+
+Si las cartas del mazo se agotan sin que nadie consiga completar sus diez cartas, la ronda termina sin ganador.
+
+### 11. Las victorias automáticas
+
+Existen tres condiciones especiales que pueden permitirte ganar antes de que comience la partida.
+
+Estas condiciones pueden cumplirse tanto con las nueve cartas originales como después del Cambio.
+
+Sin embargo, debes anunciar la victoria **antes de que se descubra la primera carta del mazo**.
+
+**Peladilla**
+
+Se produce cuando tus nueve cartas no contienen ninguna pareja del mismo valor ni dos cartas consecutivas del mismo palo.
+
+Es decir, no tienes ninguna pareja o secuencia de dos cartas que pueda servir como base para formar un juego.
+
+Aunque parezca una mano muy mala, ¡es una victoria automática!
+
+Si dos o más jugadores tienen Peladilla, gana quien tenga la carta de mayor valor. Para esta comparación, el As es la carta más alta.
+
+**Cuatro Cuerpos**
+
+Se produce cuando tienes las cuatro cartas de un mismo valor.
+
+Por ejemplo:
+
+Q♠ Q♥ Q♦ Q♣
+
+Si varios jugadores tienen Cuatro Cuerpos, gana el que tenga el grupo de mayor valor.
+
+**Color**
+
+En algunas modalidades se permite ganar automáticamente cuando todas las cartas de la mano son del mismo color: todas rojas o todas negras.
+
+En otras modalidades se exige que todas sean del mismo palo.
+
+Esta condición debe acordarse antes de comenzar a jugar, ya que no siempre se acepta como victoria automática.
+
+### 12. Reglas adicionales y situaciones especiales
+
+**Cartas que obligatoriamente deben utilizarse**
+
+En algunas modalidades, cuando aparece una carta que puede agregarse a una combinación ya bajada sobre la mesa, su propietario está obligado a recogerla y utilizarla, respetando la prioridad de los demás jugadores.
+
+Por ejemplo, si tienes A♥ 2♥ 3♥ sobre la mesa y aparece el 4♥, esa carta puede agregarse a tu escalera.
+
+Si corresponde que la utilices, deberás incorporarla a tu combinación y pagarla descartando una carta de tu mano.
+
+Esta regla debe establecerse antes de comenzar la partida, porque no todos los grupos la aplican.
+
+**Pasar el resto de la ronda**
+
+En determinadas situaciones, un jugador puede decidir dejar de participar en la ronda si comprueba que ya no tiene posibilidades de completar sus combinaciones con las cartas restantes.
+
+Cuando esto ocurre, puede colocar sus combinaciones boca abajo y esperar hasta la siguiente ronda.
+
+### 13. Descalificaciones
+
+El Desmoche también contempla penalizaciones por incumplir determinadas reglas.
+
+Dependiendo de la modalidad acordada, un jugador puede quedar descalificado por:
+
+- Incorporar a su mano una carta sacada del mazo o recogida de los descartes.
+- Mover o revisar indebidamente las cartas del montón de descartes.
+- Colocar combinaciones sobre la mesa en un orden incorrecto, cuando se exige un orden estricto.
+- Incumplir las reglas de reparto, en el caso del repartidor.
+
+En las partidas con reglas estrictas, las escaleras deben ordenarse de menor a mayor y los grupos del mismo valor deben alternar cartas rojas y negras.
+
+Si un jugador es descalificado, sus cartas salen de la ronda y deberá esperar hasta la siguiente para volver a participar.
+
+Estas penalizaciones pueden flexibilizarse por acuerdo entre los participantes.
+
+---
+
+## MODALIDADES OPCIONALES
+
+### 14. Partidas con apuestas
+
+Tradicionalmente, el Desmoche también se juega apostando una cantidad fija por ronda.
+
+Antes del reparto, todos los jugadores aportan la misma cantidad a un pozo común.
+
+El ganador se lleva el pozo.
+
+Si nadie gana, el dinero acumulado permanece para la siguiente ronda y todos vuelven a aportar la misma cantidad.
+
+De esta manera, el pozo puede duplicarse, triplicarse o seguir aumentando hasta que alguien gane.
+
+Las apuestas son completamente opcionales y no afectan a las reglas fundamentales del juego.
+
+### 15. Bonificaciones especiales
+
+Cuando los jugadores acuerdan *jugar todo*, se aplican bonificaciones adicionales por determinadas jugadas.
+
+Cada bonificación equivale al valor de la apuesta individual de la ronda y puede acumularse con otras.
+
+**Mico**
+
+Se consigue al ganar teniendo una escalera A-2-3 del mismo palo.
+
+Cada jugador perdedor debe pagar una bonificación adicional al ganador. Pueden acumularse varios Micos.
+
+**Arriba del Palo**
+
+Un jugador queda Arriba del Palo cuando otro gana antes de que haya logrado bajar una sola combinación a la mesa.
+
+En ese caso, debe pagar una bonificación al ganador.
+
+**Color**
+
+Se consigue cuando el ganador completa sus diez cartas utilizando exclusivamente cartas de un mismo palo.
+
+Por ejemplo, una escalera de diez corazones o varias combinaciones formadas únicamente por corazones.
+
+Cada rival debe pagar la bonificación correspondiente.
+
+**Bonificaciones acumulables**
+
+Un jugador puede ganar con Color y Mico simultáneamente. Además, aquellos rivales que hayan quedado Arriba del Palo deberán pagar su bonificación correspondiente.
+
+### 16. Apuestas secundarias
+
+También existen pequeñas competencias adicionales que pueden jugarse en paralelo a la partida principal, con pozos separados.
+
+Entre ellas se encuentran:
+
+- **Oro o Rombo:** tener la carta de diamantes más alta.
+- **Corazón:** tener la carta de corazones más alta.
+- **Flor:** tener la carta de tréboles más alta.
+- **Corazón Negro:** tener la carta de picas más alta.
+- **Par Rojo:** tener la pareja roja de mayor valor.
+- **Par Negro:** tener la pareja negra de mayor valor.
+- **Dos Pares Rojos:** tener la combinación más alta de dos parejas rojas.
+- **Dos Pares Negros:** tener la combinación más alta de dos parejas negras.
+- **Tres Cuerpos:** tener el trío de cartas iguales más alto.
+- **Escalera:** tener la escalera del mismo palo de mayor valor, con tres o más cartas.
+
+Para ganar una apuesta secundaria, las cartas correspondientes deben haberse recibido originalmente durante el reparto. Las cartas obtenidas durante el Cambio no cuentan.
+
+Además, el jugador debe anunciar que posee una posible combinación ganadora antes del Cambio y mostrar las cartas cuando corresponda.
+
+En estas apuestas, el As es la carta más alta y el 2 es la más baja. La valoración especial de la escalera A-2-3 debe acordarse antes de jugar.
+
+---
+
+## RECUERDA ESTAS CINCO REGLAS
+
+1. **Tu objetivo es bajar diez cartas** formando combinaciones válidas.
+2. **Todas las combinaciones necesitan al menos tres cartas**, ya sean escaleras del mismo palo o grupos del mismo valor.
+3. **Siempre debes conservar nueve cartas en total**, contando las que tienes en la mano y las que has bajado, excepto cuando ganas.
+4. **Toda carta que recoges debe utilizarse inmediatamente**, y debes pagarla descartando una carta de tu mano, salvo que completes la victoria. Y TODA CARTA que sea útil a un juego que ya tengas en la mesa, debe agregarse obligatoriamente y pagar con una carta. Si dejas pasar o ignoras una carta útil, estás descalificado del juego, pero las cartas que ya bajaste siguen recibiendo cartas nuevas y obligatoriamente debes seguir pagando por cada carta nueva.
+5. **Presta atención a las cartas de los demás.** Una carta que descartas puede permitir que otro jugador complete una combinación y se acerque a ganar.
+
+El Desmoche combina estrategia, observación y suerte. Saber cuándo bajar tus cartas, cuáles conservar y cuáles descartar puede marcar la diferencia entre perder una oportunidad y ganar la partida.
+
+**¡Ahora ya conoces las reglas principales del Desmoche. Es hora de jugar!**
